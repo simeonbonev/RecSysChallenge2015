@@ -1,7 +1,6 @@
 function aggregateClicks() {
     print('Aggregate clicks');
-    printjson(
-        db.sampleclicks.aggregate(
+    var a = db.sampleclicks.aggregate(
            [
              { 
                 $group : 
@@ -15,10 +14,14 @@ function aggregateClicks() {
                             } 
                         },
                         clicksCount: {$sum: 1},
-                        distinctItems: {$addToSet: "$itemId"}  
+                        distinctItems: {$addToSet: "$itemId"},
+                        distinctCategories: {$addToSet: "$category"},
+                        timestampArray: {$push: "$timestamp"},
+                        sessionStart: {$min: "$timestamp"},
+                        sessionEnd: {$max: "$timestamp"}  
                     } 
             }
            ]
-        )
-    );
+        );
+    printjson(a);
 }
