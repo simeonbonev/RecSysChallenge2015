@@ -18,10 +18,16 @@ function aggregateClicks() {
                         distinctCategories: {$addToSet: "$category"},
                         timestampArray: {$push: "$timestamp"},
                         sessionStart: {$min: "$timestamp"},
-                        sessionEnd: {$max: "$timestamp"}  
+                        sessionEnd: {$max: "$timestamp"}
                     } 
+            },
+            {
+                $out: "sampleClicksAggregated"
             }
-           ]
+           ],
+            {
+                allowDiskUse: true
+            }
         );
     printjson(a);
 }
