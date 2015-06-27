@@ -1,0 +1,1 @@
+mongoexport --db challenge --collection clicksAllFields --csv --out mongoProcessedData.csv --fields _id,clicksCount,sessionStart,sessionEnd,distinctCategories,numCat,numItems,bought,boughtNumber
