@@ -1,0 +1,21 @@
+_id,clicksCount,sessionStart,sessionEnd,distinctCategories,numCat,numItems,bought,boughtNumber,duration,dayOfWeek,month,hour,isWeekend,isDuringWork,isAfterWork,isAtNight,hasNoCat,hasGroupCat,hasSpecificCat,hasPromoCat
+1,4.0,"2014-04-07T10:51:09.277Z","2014-04-07T10:57:00.306Z","[ 0 ]",1,4,false,0.0,351,2,3,1,false,false,false,true,true,false,false,false
+2,6.0,"2014-04-07T13:56:37.614Z","2014-04-07T14:02:36.889Z","[ 0 ]",1,5,false,0.0,359,2,3,4,false,false,false,true,true,false,false,false
+3,3.0,"2014-04-02T13:17:46.940Z","2014-04-02T13:30:12.318Z","[ 0 ]",1,3,false,0.0,745,4,3,4,false,false,false,true,true,false,false,false
+4,2.0,"2014-04-07T12:09:10.948Z","2014-04-07T12:26:25.416Z","[ 0 ]",1,2,false,0.0,1034,2,3,3,false,false,false,true,true,false,false,false
+6,2.0,"2014-04-06T16:58:20.848Z","2014-04-06T17:02:26.976Z","[ 0 ]",1,2,false,0.0,246,1,3,7,true,false,false,false,true,false,false,false
+7,2.0,"2014-04-02T06:38:53.104Z","2014-04-02T06:39:05.854Z","[ 0 ]",1,2,false,0.0,12,4,3,9,false,false,false,false,true,false,false,false
+8,2.0,"2014-04-06T08:49:58.728Z","2014-04-06T08:52:12.647Z","[ 0 ]",1,1,false,0.0,133,1,3,11,true,false,false,false,true,false,false,false
+9,3.0,"2014-04-06T11:26:24.127Z","2014-04-06T11:29:13.479Z","[ 0 ]",1,1,false,0.0,169,1,3,2,true,false,false,true,true,false,false,false
+11,12.0,"2014-04-03T10:44:35.672Z","2014-04-03T10:57:39.433Z","[ 0 ]",1,9,true,2.0,783,5,3,1,false,false,false,true,true,false,false,false
+12,2.0,"2014-04-02T10:30:13.176Z","2014-04-02T10:33:12.621Z","[ 0 ]",1,1,true,1.0,179,4,3,1,false,false,false,true,true,false,false,false
+13,3.0,"2014-04-06T14:50:13.638Z","2014-04-06T14:53:18.268Z","[ 0 ]",1,2,false,0.0,184,1,3,5,true,false,false,true,true,false,false,false
+14,3.0,"2014-04-01T10:09:01.362Z","2014-04-01T10:12:36.482Z","[ 0 ]",1,2,false,0.0,215,3,3,1,false,false,false,true,true,false,false,false
+16,3.0,"2014-04-05T13:08:01.626Z","2014-04-05T13:20:53.092Z","[ 0 ]",1,1,false,0.0,771,7,3,4,true,false,false,true,true,false,false,false
+17,2.0,"2014-04-06T11:34:14.289Z","2014-04-06T11:34:16.193Z","[ 0 ]",1,2,false,0.0,1,1,3,2,true,false,false,true,true,false,false,false
+18,2.0,"2014-04-01T05:26:12.539Z","2014-04-01T05:26:32.156Z","[ 0 ]",1,1,false,0.0,19,3,3,8,false,false,false,false,true,false,false,false
+19,4.0,"2014-04-01T20:52:12.357Z","2014-04-01T20:54:54.651Z","[ 0 ]",1,2,false,0.0,162,3,3,11,false,true,false,false,true,false,false,false
+21,6.0,"2014-04-07T09:01:28.552Z","2014-04-07T09:21:10.012Z","[ 0 ]",1,2,true,2.0,1181,2,3,0,false,false,false,false,true,false,false,false
+22,16.0,"2014-04-06T01:29:05.969Z","2014-04-06T01:47:51.889Z","[ 0 ]",1,11,false,0.0,1125,1,3,4,true,false,false,true,true,false,false,false
+23,4.0,"2014-04-04T07:43:18.598Z","2014-04-04T07:56:48.356Z","[ 0 ]",1,1,false,0.0,809,6,3,10,false,true,false,false,true,false,false,false
+24,4.0,"2014-04-05T22:48:27.233Z","2014-04-05T22:49:06.722Z","[ 0 ]",1,2,false,0.0,39,1,3,1,true,false,false,true,true,false,false,false
